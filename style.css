@@ -19,6 +19,8 @@ ul li {
 .tittle{
     color: #0058aa;
     font-size: 1.6rem;
+    margin-top: 2.5rem;
+    margin-bottom: 0;
 }
 
 .container{
@@ -76,43 +78,47 @@ header nav ul li a{
 
 
 
-.skills{
+.cards-container{
+    margin: 0 16rem;
+    padding-top: 0;
     
-    margin-top: 2rem;
-    background: #fefefe;
-
     
 }
 
-.skills ul {
-    margin:  0 6rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    
-
-}
-
-
-.skills ul li {
-    width: 50%;
-    -webkit-box-shadow: -2px 1px 18px 2px rgba(0,0,0,0.33); 
-    box-shadow: -2px 1px 18px 2px rgba(0,0,0,0.20);
-    padding: 2rem;
-    border-radius: 15px;
-}
-
-.skills ul li em {
-    color: #0058aa;
-}
-
-.container a {
-    align-items: center;
+.row{ display: -ms-flexbox; /* IE10 */
+    display: flex;
     justify-content: center;
 }
+
+.lst-row{
+    margin: 0 6rem;
+}
+
+
+  
+.card{
+  -ms-flex: 50%; /* IE10 */
+  flex: 0 1 auto;
+  margin: 30px;
+  color: #0058aa;
+  width: 50%;
+  -webkit-box-shadow: -2px 1px 18px 2px rgba(0,0,0,0.33); 
+  box-shadow: -2px 1px 18px 2px rgba(0,0,0,0.20);
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.fst-card{
+    background-color: #0058aa;
+    color:white;
+
+} 
+
+    
+
 .nng{ 
-    width: 40%;
-    align-self: center  ;
+    margin-top: 1.4rem;
+    
+    width: 240px;
+ 
 }
