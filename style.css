@@ -32,7 +32,7 @@ ul li {
 
 .cover{
     content: "";
-    padding: 2rem 1rem  12rem;
+    padding: 2rem 1rem  4rem;
     background-color:#0058aa;
 }
 
@@ -57,6 +57,17 @@ header nav ul li a{
     font-weight: 500;
 }
 
+.name{
+    color: white;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.hero{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
 
 
 
@@ -71,8 +82,11 @@ header nav ul li a{
 }
 
 .description{
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
+    width: 60%;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
 }
 
 
@@ -108,7 +122,7 @@ header nav ul li a{
   border-radius: 15px;
 }
 
-.fst-card{
+.odd-card{
     background-color: #0058aa;
     color:white;
 
